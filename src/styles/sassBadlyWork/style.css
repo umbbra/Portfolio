@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css?family=M+PLUS+1p|Maven+Pro|Roboto|Yanone+Kaffeesatz&display=swap");
+.app-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 70vh;
+  background-color: #282c34;
+  text-align: center;
+  color: white;
+}
+
+.app-header p {
+  font-size: 2vw;
+  margin: 2vh auto;
+}
+
+.app-header h1 {
+  font-size: 3vw;
+  margin: 3vh auto;
+}
+
+.app-header hr {
+  width: 70vw;
+}
+
+.about {
+  text-align: center;
+  margin: 3vh 10vw;
+}
+
+.about .about .aboutTitle {
+  margin-bottom: 2vh;
+  font-size: 2vw;
+}
+
+.about .about p {
+  font-size: 1.5vw;
+}
+
+.skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 5vh auto 0 auto;
+  background-color: #282c34;
+  width: 100%;
+  color: white;
+  font-size: 1.5vw;
+}
+
+.skills div {
+  margin: 5vh;
+}
+
+.skills h3 {
+  letter-spacing: 0.2vw;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 1vh;
+  line-height: 140%;
+}
+
+.projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 5px auto;
+  min-height: 70vh;
+  max-width: 70vw;
+  font-size: 1.5vw;
+}
+
+.projects .project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 2vh 0;
+}
+
+.projects .project div.imgs {
+  width: 300px;
+  height: 200px;
+  background-color: #adc3d1;
+}
+
+.projects .project p {
+  padding: 5vh;
+  max-width: 50vw;
+  height: 10vh;
+}
+
+.projects .project:nth-child(even) {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+footer {
+  text-align: center;
+  background-color: #282c34;
+  color: white;
+  padding: 4vh;
+  text-transform: uppercase;
+}
+
+footer p:nth-of-type(1) {
+  text-transform: none;
+}
+
+footer p:nth-last-of-type(1) {
+  margin-top: 6vh;
+  font-size: 1vw;
+}
+
+footer h3.contact {
+  font-size: 2vw;
+  margin-bottom: 1.5vh;
+}
+
+footer p.icons i {
+  margin: 1vh 2vh;
+  font-size: 3vw;
+  cursor: pointer;
+}
+
+/*CZIONKI DO WYKORZYSTANIA:
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Maven Pro', sans-serif;
+    font-family: 'M PLUS 1p', sans-serif;
+    font-family: 'Roboto', sans-serif;
+ */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* .app-header {
+  font-family: "Maven Pro", Arial, sans-serif;
+}
+
+* .nav {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+* .about {
+  font-family: "Roboto", sans-serif;
+}
+
+* .skills {
+  font-family: "Maven Pro", sans-serif;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin: 1vh auto;
+  max-height: 6vh;
+  letter-spacing: 0.5vh;
+}
+
+.nav .nav ul {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style-type: none;
+  width: 100%;
+  text-transform: uppercase;
+  background-color: #fafafa;
+}
+
+.nav .nav ulli {
+  min-width: 15vw;
+  cursor: pointer;
+  margin: 2vh 0;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.nav .nav ullii:hover {
+  font-size: 1.4vw;
+}
+/*# sourceMappingURL=style.css.map */

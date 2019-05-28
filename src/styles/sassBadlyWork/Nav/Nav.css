@@ -1,0 +1,38 @@
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin: 1vh auto;
+  max-height: 6vh;
+  letter-spacing: 0.5vh;
+}
+
+.nav ul {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style-type: none;
+  width: 100%;
+  text-transform: uppercase;
+  background-color: #fafafa;
+}
+
+.nav ul li {
+  min-width: 10vw;
+  cursor: pointer;
+  margin: 1vh 3vh;
+  padding: 1vh;
+}
+
+.nav ul li:hover {
+  border-bottom: 1px solid black;
+}
+/*# sourceMappingURL=Nav.css.map */

@@ -1,0 +1,52 @@
+.projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 5px auto;
+  min-height: 70vh;
+  max-width: 70vw;
+  font-size: 1.5vw;
+}
+
+.projects .project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 2vh 0;
+}
+
+.projects .project div.imgs {
+  min-width: 250px;
+  min-height: 150px;
+  background-color: #adc3d1;
+}
+
+.projects .project div.imgs img {
+  width: 100%;
+  height: 100%;
+}
+
+.projects .project p {
+  padding: 5vh;
+  max-width: 50vw;
+  height: 10vh;
+}
+
+.projects .project:nth-child(even) {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+/*# sourceMappingURL=Projects.css.map */
