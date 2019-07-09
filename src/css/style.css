@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Gentium+Basic|Poppins|Quicksand&display=swap');
+
+@import "Nav.css";
+@import "Header.css";
+@import "About.css";
+@import "Skills.css";
+@import "Projects.css";
+@import "Footer.css";
+@import "Menu.css";
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}

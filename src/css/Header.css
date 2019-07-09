@@ -1,0 +1,62 @@
+.app-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #282c34;
+  text-align: center;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.app-header p {
+  font-size: 10vw;
+  margin: 2vh auto;
+  font-weight: bold;
+}
+
+.app-header h1 {
+  font-size: 12vw;
+  margin: 3vh auto;
+  font-weight: normal;
+}
+
+.app-header hr {
+  width: 40vw;
+}
+
+@media (min-width: 700px) {
+  .app-header{
+    min-height: 80vh;
+  }
+  .app-header p {
+    font-size: 5vw;
+  }
+  .app-header h1 {
+    font-size: 6vw;
+  }
+}
+
+@media (min-width: 1025px) {
+  .app-header{
+    min-height: 80vh;
+   
+  }
+  .app-header p {
+    font-size: 2vw;
+  }
+  .app-header h1 {
+    font-size: 3vw;
+  }
+}
+/*# sourceMappingURL=Header.css.map */

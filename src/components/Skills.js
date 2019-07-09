@@ -1,8 +1,9 @@
 import React from "react";
-import '../styles/css/style.css';
+import  "../css/style.css";
+
 const Skills = () => {
   return (
-    <section className="skills">
+    <section className="skills" id="skills">
       <div className="school">
         <h3>Moja droga:</h3>
         <ul>
@@ -10,7 +11,8 @@ const Skills = () => {
           <li> Zdane Egzaminy - E.12, E.13, E.14</li>
           <li> Tytuł Technika Informatyka</li>
           <li>Kurs C++, potwierdzony certyfikatem</li>
-          <li>oraz kursy: Front-End, JavaScript (ES6), React</li>
+          <li>oraz kursy internetowe:</li> 
+            <li>Front-End, JavaScript (ES6), React, React-Router</li>
         </ul>
       </div>
       <div className="knowledge">

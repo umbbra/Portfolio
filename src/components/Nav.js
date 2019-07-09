@@ -1,19 +1,67 @@
 import React from "react";
-import'../styles/css/style.css';
-const Nav = () => {
-  return (
-    <nav className="nav">
-      <ul>
-        <li>
-          Go to top <i className="fas fa-chevron-up" />
-        </li>
-        <li>o mnie </li>
-        <li>umiejętności</li>
-        <li>projekty</li>
-        <li>kontakt</li>
-      </ul>
-    </nav>
-  );
-};
+import "../css/style.css";
+import $ from 'jquery';
+
+$(document).ready(function() { 
+
+	$('a[href^="#"]').on('click', function(event) {
+	
+		var target = $( $(this).attr('href') );
+	
+		if( target.length ) {
+			event.preventDefault();
+			$('html, body').animate({
+				scrollTop: target.offset().top
+			}, 1000);
+		}
+	});
+
+});
+class Nav extends React.Component {
+  state = {
+    active: false,
+  };
+  showMenu = () => {
+    this.setState({
+      active: !this.state.active,
+    });
+  
+    console.log("Nastąpiła zmiana");
+  };
+  render() {
+    return (
+      <>
+        <nav className="desktop">
+          <ul>
+            <li>
+              <a href="#header">
+              GO TOP <i className="fas fa-chevron-up" />
+              </a>
+            </li>
+            <li> <a href="#about"> o mnie </a></li>
+            <li> <a href="#skills">umiejętności</a></li>
+            <li><a href="#projects">projekty</a></li>
+            <li><a href="#contact">kontakt</a></li>
+          </ul>
+        </nav>
+
+        <div onClick={this.showMenu}>
+          <i className={this.state.active ? "fas fa-times hamburger" :"fas fa-bars hamburger" } />
+          {/* <i class="fas fa-times hamburger"></i> */}
+        </div>
+        <nav>
+          <div className={this.state.active ? "on active" : "on"}>
+            <ul>
+              <li> <a href="#about"> O mnie</a></li>
+              <li> <a href="#skills">umiejętności</a></li>
+            <li><a href="#projects">projekty</a></li>
+            <li><a href="#contact">kontakt</a></li>
+            </ul>
+          </div>
+        </nav>
+      </>
+    );
+  }
+}
 
 export default Nav;

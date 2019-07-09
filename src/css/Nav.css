@@ -1,0 +1,70 @@
+nav.desktop {
+  display: none;
+  order: -1;
+  font-family: 'Quicksand', sans-serif;
+}
+.hamburger {
+  position: fixed;
+  right: 0;
+  font-size: 13vw;
+  cursor: pointer;
+  color: white;
+  margin: 3vh;
+  z-index: 99999 !important;
+}
+
+a{
+  color:white;
+  text-decoration: none;
+}
+
+@media (min-width: 320px) {
+  i.hamburger {
+    font-size: 10vw;
+    text-shadow: 0 0 4px black;
+  }
+}
+@media (min-width: 520px) {
+  i.hamburger {
+    font-size: 7vw;
+  }
+}
+
+@media (min-width: 1000px) {
+  i.hamburger {
+    display: none;
+  }
+  nav.desktop {
+    display: flex;
+    position: absolute;
+    top: 0;
+    z-index: 5;
+  }
+  .desktop ul {
+    position: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    list-style-type: none;
+    width: 100%;
+    text-transform: uppercase;
+    background-color: #242830;
+    color: rgb(201, 201, 201);
+  }
+  .desktop ul li {
+    min-width: 10vw;
+    cursor: pointer;
+    margin: 1vh 3vh;
+    padding: 1vh;
+
+    transition: 0.2s;
+  }
+  .desktop ul li:hover {
+    color: white;
+    text-shadow: 0 0 2px white;
+    font-size: 103%;
+  }
+}

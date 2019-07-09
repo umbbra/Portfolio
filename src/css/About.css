@@ -1,0 +1,56 @@
+.about {
+  text-align: center;
+  margin: 3vh 10vw;
+  font-family: 'Poppins', sans-serif;
+}
+
+.about .aboutTitle {
+  font-size: 6vw;
+}
+
+.about p {
+  font-size: 5vw;
+  margin: 5vh auto 9vh;
+}
+
+@media (min-width: 600px) {
+  .about .aboutTitle {
+    font-size: 5vw;
+  }
+
+  .about p {
+    font-size: 3vw;
+  }
+}
+
+@media (min-width: 1200px) {
+  .about .aboutTitle {
+    font-size: 3vw;
+  }
+
+  .about p {
+    font-size: 2vw;
+  }
+}
+@media (min-width: 1020px) {
+  .about .aboutTitle {
+    font-size: 3vw;
+  }
+
+  .about p {
+    font-size: 2vw;
+
+  }
+}
+@media (min-width: 1400px) {
+  .about .aboutTitle {
+    font-size: 2vw;
+    margin-top: 5vh;
+  }
+
+  .about p {
+    font-size: 1.5vw;
+  margin: 5vh auto 6vh;
+
+  }
+}

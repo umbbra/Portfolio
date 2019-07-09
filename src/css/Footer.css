@@ -1,0 +1,114 @@
+footer {
+  text-align: center;
+  background-color: #282c34;
+  color: white;
+  padding: 4vh;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+}
+
+footer p:nth-of-type(1) {
+  text-transform: none;
+}
+
+footer p:nth-last-of-type(1) {
+  margin-top: 6vh;
+  font-size: 3vw;
+}
+
+footer h3.contact {
+  font-size: 6vw;
+  margin-bottom: 1.5vh;
+}
+
+footer p.icons a {
+  color:rgb(206, 206, 206);
+
+}
+
+footer p.icons a i {
+  margin: 1vh 2vh;
+  font-size: 10vw;
+  cursor: pointer;
+  transition: .2s;
+}
+
+footer p.icons a i:hover{
+  color: white;
+
+  transform: scale(1.1);
+animation: 0.8s linear ding infinite;
+}
+
+@keyframes ding{
+0%{ transform: rotate(0deg);}
+25%{
+  transform: rotate(-10deg)
+}
+50%{
+  transform: rotate(0deg);
+}
+75%{
+  transform: rotate(10deg)
+}
+100%{
+  transform: rotate(0deg)
+}
+}
+@media(min-width: 600px){
+  footer h3.contact {
+    font-size: 5vw;
+  
+  }
+  footer p.icons a i {
+  
+    font-size: 8vw;
+    
+  }
+}
+
+@media(min-width: 600px){
+  footer h3.contact {
+    font-size: 5vw;
+  
+  }
+  footer p.icons a i {
+  
+    font-size: 8vw;
+    
+  }
+  footer p:nth-last-of-type(1) {
+    font-size: 2vw;
+  }
+}
+
+@media(min-width: 800px){
+  footer h3.contact {
+    font-size: 3vw;
+  
+  }
+  footer p.icons a i {
+  
+    font-size: 5vw;
+    
+  }
+  footer p:nth-last-of-type(1) {
+    font-size: 1vw;
+  }
+}
+
+@media(min-width: 1000px){
+  footer h3.contact {
+    font-size: 2vw;
+  }
+  footer p.icons a i {
+    font-size: 3vw;
+  }
+  footer p:nth-last-of-type(1) {
+    font-size: 0.85vw;
+  }
+  footer p:nth-of-type(1),
+  footer p:nth-of-type(2){
+    font-size: 3vh;
+  }
+}
