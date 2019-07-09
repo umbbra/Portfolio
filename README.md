@@ -1,4 +1,4 @@
-# Portfolio
+# Portfolio - Patrycja Paczkowska
 #### Hello!
 Here are some information about this project.
 
