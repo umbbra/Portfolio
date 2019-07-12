@@ -16,17 +16,17 @@
   background-color: #282c34;
   text-align: center;
   color: white;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Dosis', sans-serif;
 }
 
 .app-header p {
-  font-size: 10vw;
+  font-size: 5rem;
   margin: 2vh auto;
   font-weight: bold;
 }
 
 .app-header h1 {
-  font-size: 12vw;
+  font-size: 5.5rem;
   margin: 3vh auto;
   font-weight: normal;
 }
@@ -40,10 +40,10 @@
     min-height: 80vh;
   }
   .app-header p {
-    font-size: 5vw;
+    font-size: 5rem;
   }
   .app-header h1 {
-    font-size: 6vw;
+    font-size: 6rem;
   }
 }
 
@@ -53,10 +53,10 @@
    
   }
   .app-header p {
-    font-size: 2vw;
+    font-size: 4rem;
   }
   .app-header h1 {
-    font-size: 3vw;
+    font-size: 5rem;
   }
 }
 /*# sourceMappingURL=Header.css.map */

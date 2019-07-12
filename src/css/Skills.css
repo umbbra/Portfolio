@@ -10,7 +10,7 @@
   width: 100%;
   height: 90vh;
   color: white;
-  font-size: 5vw;
+  font-size: 2rem;
 }
 
 .skills div {
@@ -19,19 +19,19 @@
 
 .skills h3 {
   letter-spacing: 0.2vw;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif
 }
 
 .skills ul {
   list-style: none;
   padding: 1vh;
   line-height: 140%;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 /*# sourceMappingURL=Skills.css.map */
 @media (min-width: 430px) {
   .skills {
-    font-size: 4vw;
+    font-size: 2.2rem;
   }
   .skills div {
     padding: 0 5vh ;
@@ -42,7 +42,7 @@
 
 @media(min-width: 700px){
   .skills{
-    font-size: 3vw;
+    font-size: 2.5rem;
   }
   .skills div{
     margin: 3vh;
@@ -52,17 +52,24 @@
 @media(min-width: 980px){
   .skills{
     flex-direction: row;
-    font-size:2vw;
+    font-size:2.2rem;
     height: auto;
   }
   .skills div{
-    margin: 2vh;
+    margin: 6vh;
   }
 }
 
 @media(min-width: 1300px){
   .skills{
-    font-size: 1.5vw;
+    font-size: 2rem;
     padding: 3vh 0;
+  }
+}
+
+@media(min-width: 1600px){
+  .skills{
+    font-size: 2.5rem;
+    
   }
 }

@@ -9,13 +9,12 @@ nav > div.on {
   overflow: hidden;
  z-index: 10;
  transition: .3s;
- font-family: 'Poppins', sans-serif
+ font-family: 'Dosis', sans-serif;
 }
 div.on a {
   color:#656f83;
 }
 div.on a:hover {
-  /* color:#282c34; */
   color:black;
 }
 div.on.active{
@@ -23,7 +22,7 @@ div.on.active{
 }
 div.on ul{
   list-style-type: none;
-  font-size: 7vw;
+  font-size: 3rem;
   text-transform: uppercase;
   
 }
@@ -38,17 +37,11 @@ div.on ul li:hover{
  transform: translateX(5%);
 }
 @media(min-width: 500px){
-  div.on ul{
-    font-size: 5vw;
-    }
     div.on.active{
       right: 35%;
     }
 }
 @media(min-width: 700px){
-  div.on ul{
-    font-size: 4vw;
-    }
     div.on.active{
       right: 50%;
     }
