@@ -25,7 +25,8 @@
   font-size: 2rem;
   font-family: 'Roboto', sans-serif;
 }
-.project h3{
+.project a h3{
+  color: black;
   font-family: 'Montserrat', sans-serif;
   padding: 2vh 0;
 }

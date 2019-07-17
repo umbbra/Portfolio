@@ -28,6 +28,7 @@ class Nav extends React.Component {
   
     console.log("Nastąpiła zmiana");
   };
+  
   render() {
     return (
       <>
@@ -47,15 +48,15 @@ class Nav extends React.Component {
 
         <div onClick={this.showMenu}>
           <i className={this.state.active ? "fas fa-times hamburger" :"fas fa-bars hamburger" } />
-          {/* <i class="fas fa-times hamburger"></i> */}
+          
         </div>
         <nav>
           <div className={this.state.active ? "on active" : "on"}>
             <ul>
-              <li> <a href="#about"> O mnie</a></li>
-              <li> <a href="#skills">umiejętności</a></li>
-            <li><a href="#projects">projekty</a></li>
-            <li><a href="#contact">kontakt</a></li>
+            <li onClick={this.showMenu}><a href="#about"> O mnie</a></li>
+            <li onClick={this.showMenu}><a href="#skills">umiejętności</a></li>
+            <li onClick={this.showMenu}><a href="#projects">projekty</a></li>
+            <li onClick={this.showMenu}><a href="#contact">kontakt</a></li>
             </ul>
           </div>
         </nav>
