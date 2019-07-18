@@ -47,17 +47,15 @@ class Projects extends React.Component {
 
           <div className="description">
             <a href="https://umbbra.github.io/Portfolio/"><h3>Portfolio</h3></a>
-            Projekt od podszewki jest moją twórczością. Przy tworzeniu używałam głównie Reacta oraz ScrollReveal. Oczywiście kod jest udostępniony na
-            GitHubie.
+             Przy tworzeniu portfolio użyto Reacta wraz z biblioteką ScrollReveal. Kod udostępniony na GitHubie, tak jak i reszta projektów.
           </div>
         </article>
         <article className="project" ref="right">
         <img src={calc} alt="Calculator Project" />
 
         <div className="description">
-          <a href="https://umbbra.github.io/Portfolio/"><h3>Kalkulator </h3></a>
-          Strona z kilkoma kalkulatorami: zwykły, walutowy, binarny.
-          Stylowanie w języku SCSS.
+          <a href="https://umbbra.github.io/Kalkulatory/"><h3>Kalkulator </h3></a>
+          Na stronie znajduje się kalkulator zwykły i walutowy. Stylowanie w SCSS. Pobieranie aktualnych danych za pomocą Fetch Api ze strony http://api.nbp.pl/.
         </div>
         </article>
         <article className="project"  ref="left">
@@ -66,7 +64,7 @@ class Projects extends React.Component {
 
           <div className="description">
             <a href="https://umbbra.github.io/Portfolio/"><h3>Jadłospis</h3></a>
-            Do aplikacji można wpisać dania wraz ze składnikami. Nastęnie
+            Do aplikacji można wpisać dania wraz ze składnikami. Następnie
             wybieramy jadłospis na kolejny dzień i generujemy listę zakupów.
           </div>
         </article>
@@ -76,9 +74,7 @@ class Projects extends React.Component {
 
           <div className="description">
             <a href="https://umbbra.github.io/Portfolio/"><h3>Oszczędności</h3></a>
-            Dzięki tej aplikacji łatwiej będzie nam oszczędzać. Po wpisaniu na
-            co chcemy zaoszczędzić i kolejnych wpłat aplikacja oblicza nam ile
-            jeszcze pozostało do spełnienia marzenia.
+            Ta aplikacja pomoże nam zachować systematyczność i motywację do oszczędzania. Po wpisaniu celu naszego oszczędzania i kolejnych wpłat aplikacja oblicza ile jeszcze pozostało do spełnienia marzenia.
           </div>
         </article>
       </section>
