@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.cd86ea00.chunk.css",
-    "main.js": "/Portfolio/static/js/main.9765dc52.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.9765dc52.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.618fdda2.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.618fdda2.chunk.js.map",
     "runtime~main.js": "/Portfolio/static/js/runtime~main.132fbc8c.js",
     "runtime~main.js.map": "/Portfolio/static/js/runtime~main.132fbc8c.js.map",
     "static/js/2.12101c11.chunk.js": "/Portfolio/static/js/2.12101c11.chunk.js",
     "static/js/2.12101c11.chunk.js.map": "/Portfolio/static/js/2.12101c11.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.044bf232c00ef47309dec163c3c4f52b.js": "/Portfolio/precache-manifest.044bf232c00ef47309dec163c3c4f52b.js",
+    "precache-manifest.831506005e87ff30d9d139c95eb7d260.js": "/Portfolio/precache-manifest.831506005e87ff30d9d139c95eb7d260.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/main.cd86ea00.chunk.css.map": "/Portfolio/static/css/main.cd86ea00.chunk.css.map",
-    "static/media/calc.jpg": "/Portfolio/static/media/calc.6095b258.jpg",
+    "static/media/calc.jpg": "/Portfolio/static/media/calc.baaf4f5d.jpg",
     "static/media/noimages.png": "/Portfolio/static/media/noimages.0a5c0dc5.png",
     "static/media/portfolio.jpg": "/Portfolio/static/media/portfolio.40e77881.jpg",
-    "static/media/salonpiekna.jpg": "/Portfolio/static/media/salonpiekna.a39276a4.jpg"
+    "static/media/salonpiekna.jpg": "/Portfolio/static/media/salonpiekna.1d3c8024.jpg"
   }
 }

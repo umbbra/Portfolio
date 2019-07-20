@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7c2e997adc54bad0b4631c436101bc43",
+    "revision": "552e6cdafaab98c87a25cfd126163505",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "2ba21327ec0f8a674c87",
+    "revision": "8243b45c8c72a0d08982",
     "url": "/Portfolio/static/css/main.cd86ea00.chunk.css"
   },
   {
@@ -12,16 +12,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/js/2.12101c11.chunk.js"
   },
   {
-    "revision": "2ba21327ec0f8a674c87",
-    "url": "/Portfolio/static/js/main.9765dc52.chunk.js"
+    "revision": "8243b45c8c72a0d08982",
+    "url": "/Portfolio/static/js/main.618fdda2.chunk.js"
   },
   {
     "revision": "6b64d540f1308ee928ad",
     "url": "/Portfolio/static/js/runtime~main.132fbc8c.js"
   },
   {
-    "revision": "6095b258d9bbdc1ec750b523687a7bec",
-    "url": "/Portfolio/static/media/calc.6095b258.jpg"
+    "revision": "baaf4f5d855aa4b50e60f708456a4f7d",
+    "url": "/Portfolio/static/media/calc.baaf4f5d.jpg"
   },
   {
     "revision": "0a5c0dc550311afb043aded993229f6c",
@@ -32,7 +32,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/portfolio.40e77881.jpg"
   },
   {
-    "revision": "a39276a4bb233bbbfad9e4c2b2580e24",
-    "url": "/Portfolio/static/media/salonpiekna.a39276a4.jpg"
+    "revision": "1d3c80249fa0db25d0788e72743e583d",
+    "url": "/Portfolio/static/media/salonpiekna.1d3c8024.jpg"
   }
 ]);
