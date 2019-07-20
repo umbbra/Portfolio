@@ -34,10 +34,10 @@ class Projects extends React.Component {
       <section className="projects" id="projects">
         <h2>Projekty</h2>
         <article className="project" ref="right">
-        <img src={salon} alt="SPA Project" />
+        <img src={salon} alt="Beauty Project" />
 
 <div className="description">
-<a href="https://umbbra.github.io/SalonPieknosci/"><h3>Strona SPA</h3></a>
+<a href="https://umbbra.github.io/SalonPieknosci/"><h3>Salon Piękności</h3></a>
   Strona poświęcona fikcyjnej firmie. W trakcie tworzenia używałam podstawowych języków (HTML, CSS, JS), aby doszliwować umiejętności i przypomnieć niektóre podstawy.
 </div>
         </article>
