@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "552e6cdafaab98c87a25cfd126163505",
+    "revision": "37e81374e646c27d558dd702cae2bca1",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "8243b45c8c72a0d08982",
+    "revision": "81c0cde7015ce8bd0bb0",
     "url": "/Portfolio/static/css/main.cd86ea00.chunk.css"
   },
   {
-    "revision": "399dda526841ec035bd6",
-    "url": "/Portfolio/static/js/2.12101c11.chunk.js"
+    "revision": "c88d54560c92067118bf",
+    "url": "/Portfolio/static/js/2.b670d390.chunk.js"
   },
   {
-    "revision": "8243b45c8c72a0d08982",
-    "url": "/Portfolio/static/js/main.618fdda2.chunk.js"
+    "revision": "81c0cde7015ce8bd0bb0",
+    "url": "/Portfolio/static/js/main.16615dba.chunk.js"
   },
   {
     "revision": "6b64d540f1308ee928ad",
@@ -34,5 +34,17 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1d3c80249fa0db25d0788e72743e583d",
     "url": "/Portfolio/static/media/salonpiekna.1d3c8024.jpg"
+  },
+  {
+    "revision": "543bb3468f2b2468d8d64984d164469c",
+    "url": "/Portfolio/static/media/savings.543bb346.jpg"
+  },
+  {
+    "revision": "9fb60141de30b9a4d7f875271751a478",
+    "url": "/Portfolio/static/media/simplePage.9fb60141.jpg"
+  },
+  {
+    "revision": "e8673615838b411882d06464152dc67f",
+    "url": "/Portfolio/static/media/todo.e8673615.jpg"
   }
 ]);
