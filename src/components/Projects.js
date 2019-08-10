@@ -53,15 +53,8 @@ class Projects extends React.Component {
              Przy tworzeniu portfolio użyto Reacta wraz z biblioteką ScrollReveal. Kod udostępniony na GitHubie, tak jak i reszta projektów.
           </div>
         </article>
+        
         <article className="project" ref="right">
-        <img src={calc} alt="Calculator Project" />
-
-        <div className="description">
-          <a href="https://umbbra.github.io/Kalkulatory/"><h3>Kalkulator </h3></a>
-          Na stronie znajduje się kalkulator zwykły i walutowy. Stylowanie w SCSS. 
-        </div>
-        </article>
-        <article className="project" ref="left">
           
           <img src={save} alt="Savings Project" />
 
@@ -70,9 +63,9 @@ class Projects extends React.Component {
             Ta aplikacja pomoże nam zachować systematyczność i motywację do oszczędzania. Po wpisaniu celu naszego oszczędzania i kolejnych wpłat aplikacja oblicza ile jeszcze pozostało do spełnienia marzenia.
           </div>
         </article>
-        <article className="project" ref="right">
+        <article className="project" ref="left">
           
-          <img src={todo} alt="Savings Project" />
+          <img src={todo} alt="TODO Project" />
 
           <div className="description">
             <a href="https://umbbra.github.io/todoapp/"><h3>Zwykła aplikacja To-Do</h3></a>
@@ -80,9 +73,9 @@ class Projects extends React.Component {
           </div>
         </article>
 
-        <article className="project" ref="left">
+        <article className="project" ref="right">
           
-          <img src={simplePage} alt="Savings Project" />
+          <img src={simplePage} alt="Simple Project" />
 
           <div className="description">
             <a href="https://umbbra.github.io/Flexbox-simplyPage/"><h3>Prosty design</h3></a>
@@ -90,7 +83,7 @@ class Projects extends React.Component {
           </div>
         </article>
 
-        <article className="project"  ref="right">
+        <article className="project"  ref="left">
           
           <img src={noimages} alt="Menu Project" />
 
