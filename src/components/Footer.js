@@ -5,8 +5,8 @@ const Footer = () => {
   return ( 
     <footer id="contact">
         <h3 className="contact"> Kontakt</h3>
-        <p> umbra@spoko.pl</p>
-        <p>882 813 487</p>
+        <p>paczkowska.umbbra@gmail.com</p>
+        
         <p className="icons">
           <a href="https://www.facebook.com/patrycja.paczkowska.336"><i className="fab fa-facebook-square"/></a>
           <a href="https://github.com/umbbra"><i className="fab fa-github-square" /></a>
