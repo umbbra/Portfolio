@@ -18,7 +18,7 @@ class About extends React.Component {
       Krótko o tym, kim jestem i czym aktualnie się zajmuję:
     </h2>
     <p>
-      W chwili obecnej sumiennie przygotowuję się do pierwszej pracy jako Front-End Developer. Po przejściu wielu kursów oraz zrobieniu kilku samodzielnych projektów nareszcie mogę godnie przedstawić się na rynku pracy. Aktualnie przerabiam kurs z Node.js oraz Redux. Ponadto jestem osobą uporządkowaną i potrafię utrzymać samodyscyplinę. Rozwój jest nieodłączną cześcią mojego życia i dlatego pragnę rozwijać się w programowaniu. Praca w tym zawodzie jest moim marzeniem, pasją i przyjemnością :)
+      W chwili obecnej sumiennie przygotowuję się do pierwszej pracy jako Front-End Developer. Po przejściu wielu kursów oraz zrobieniu kilku samodzielnych projektów nareszcie mam możliwość przedstawić się na rynku pracy. Aktualnie przerabiam kurs z Node.js oraz Redux. Ponadto jestem osobą uporządkowaną i potrafię utrzymać samodyscyplinę. Rozwój jest nieodłączną cześcią mojego życia i dlatego pragnę rozwijać się w programowaniu. Praca w tym zawodzie jest moim marzeniem, pasją i przyjemnością :)
     </p>
   </section>
    );

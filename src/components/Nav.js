@@ -36,7 +36,7 @@ class Nav extends React.Component {
           <ul>
             <li>
               <a href="#header">
-              GO TOP <i className="fas fa-chevron-up" />
+              Na górę <i className="fas fa-chevron-up" />
               </a>
             </li>
             <li> <a href="#about"> o mnie </a></li>
